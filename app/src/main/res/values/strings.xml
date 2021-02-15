@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">食出有因</string>
+    <string name="title_home">今日饮食</string>
+    <string name="title_dashboard">疾病分析</string>
+    <string name="title_notifications">液体检测</string>
+    <string name="nav_fourth">我的</string>
+</resources>

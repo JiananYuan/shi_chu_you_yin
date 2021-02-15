@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/first">
+
+    <fragment
+        android:id="@+id/first"
+        android:name="com.compete.myapplication.ui.first.FirstFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_first" />
+
+    <fragment
+        android:id="@+id/second"
+        android:name="com.compete.myapplication.ui.second.SecondFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_second" />
+
+    <fragment
+        android:id="@+id/third"
+        android:name="com.compete.myapplication.ui.third.ThirdFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_third" />
+
+    <fragment
+        android:id="@+id/fourth"
+        android:name="com.compete.myapplication.ui.fourth.FourthFragment"
+        android:label="@string/nav_fourth"
+        tools:layout="@layout/fragment_fourth" />
+
+</navigation>
